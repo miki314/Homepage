@@ -1,0 +1,92 @@
+body{
+	background-color: #ccc;
+	background-size: cover;
+	resize: vertical;
+	overflow: inherit;
+	font-size: 24px;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	transition: all ease-in-out 0.2s;
+}
+
+input{
+	font-size: 24px;
+	background-color: #aaa;
+	border: 3px solid #666;
+	padding: 5px 10px;
+}
+
+input:hover{
+	background-color: #888;
+	border: 3px solid #fff; 
+	color: #fff;
+}
+
+input:focus{
+	background-color: #888;
+	border: 3px solid #fff; 
+}
+
+input[type=text]{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	margin: 20px 0;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+	}
+
+#szukaj:hover{
+	background-color: #888;
+	border: 3px solid #fff; 
+}
+
+#search{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin: 20px 0;
+	font-size: 24px;
+	background-color: #aaa;
+	border: 3px solid #666;
+	padding: 3px 10px;
+	border-left: none;
+}
+
+#search:hover{
+	color: #fff;
+	border-left: 2px solid white;
+}
+
+#clock{
+	font-size: 64px;
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px 0px rgba(0,0,0,0.6);
+	font-weight: 700;
+	font-family: 'Cairo', sans-serif;
+}
+
+#callendar{
+	font-size: 24px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.6);
+	font-family: 'Cairo', sans-serif;
+}
+
+#content{
+	position: absolute;
+	top: 40%;
+	}
+
+#search_engine{ font-size: 0px;}
+
+#phrase{ border-right: 2px solid #666;}
+#phrase:hover{ border-right: 2px solid #fff;}
